@@ -1,0 +1,9 @@
+{
+  "name": "logsage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend ci && npm --prefix frontend run build",
+    "test": "cd backend && pytest && npm --prefix frontend test -- --run"
+  }
+}

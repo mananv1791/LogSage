@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.venv
+backend/.venv
+backend/.pytest_cache
+backend/**/__pycache__
+backend/logsage.db
+backend/test_logsage.db
+frontend/node_modules
+frontend/dist
+frontend/*.tsbuildinfo
+node_modules
+dist
+coverage
